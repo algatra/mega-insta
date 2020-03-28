@@ -114,6 +114,8 @@ class mega_insta:
 			ment = driver.find_element_by_class_name('rkEop').text
 			if 'This Account is Private' in ment:
 				return 'Yes'
+			else:
+				return 'Yes'
 		except:
 			return 'No'
 		
